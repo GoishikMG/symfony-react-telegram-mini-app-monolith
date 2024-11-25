@@ -1,3 +1,5 @@
+.idea/
+.vscode/
 
 ###> symfony/framework-bundle ###
 /.env.local
@@ -5,9 +7,14 @@
 /.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
 /public/bundles/
+/public/slider/
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
+###> nginx ###
+/docker/nginx/ssl/
+###< nginx ###
 
 ###> phpunit/phpunit ###
 /phpunit.xml
@@ -19,7 +26,34 @@
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
 
+###> docker ###
+/docker/db/
+###< docker ###
+
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+/public/build/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###
+
+###> lexik/jwt-authentication-bundle ###
+/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
+
+###> friendsofphp/php-cs-fixer ###
+/.php-cs-fixer.php
+/.php-cs-fixer.cache
+###< friendsofphp/php-cs-fixer ###
+
+###> backups ###
+/backups/
+###< backups ###
+
 ###> symfony/asset-mapper ###
 /public/assets/
-/assets/vendor/
 ###< symfony/asset-mapper ###
+
+###> dkim ###
+/config/dkim/*.pem
+###< dkim ###
