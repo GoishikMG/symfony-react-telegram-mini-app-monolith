@@ -27,11 +27,10 @@ Build react app:
 docker compose run --rm node npm run build
 ```
 
-Execute migrations and generate jwt keypair:
+Execute migrations:
 
 ```shell
 docker compose exec php php bin/console doctrine:migration:migrate
-docker compose exec php bin/console lexik:jwt:generate-keypair
 ```
 Modify /etc/hosts file:
 
