@@ -1,3 +1,14 @@
+# Symfony/React telegram mini app template
+
+Dockerize php/ts monolith for quick telegram mini app development start.
+
+> [!NOTE]
+> The work is still in progress.
+
+## Libraries
+
+- [Nugram Bundle for Symfony](https://github.com/nutgram/symfony-bundl) 
+- [Telegram UI](https://github.com/Telegram-Mini-Apps/TelegramUI)
 
 ## Install Development Environment
 
