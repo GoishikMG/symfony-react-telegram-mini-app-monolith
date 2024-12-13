@@ -36,8 +36,6 @@ services:
             - ./:/var/www/php
             - ./docker/php/php.ini:/usr/local/etc/php/php.ini
             - ./docker/php/www.conf.default:/usr/local/etc/php-fpm.d/www.conf.default
-        environment:
-            TIMEZONE: ${APP_TIMEZONE}
     certbot:
         image: certbot/certbot:latest
         volumes:
